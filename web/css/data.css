@@ -1,0 +1,405 @@
+
+
+/*************
+**** DATA ****
+*************/
+
+/**/
+.DATA_layer01{
+    width:100%; margin:0 auto; display:table;
+}
+
+/*1*/
+.DATA_layer01 .inner1{
+    height:440px;
+    display:table-cell; 
+    text-align: center;
+    vertical-align: middle;
+
+    background: url("../img/data_bg01.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.DATA_layer01 .inner1 .content{
+    display: inline-block;
+    width:100%;
+}
+
+.DATA_layer01 .inner1 .content .box_text{
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.CHART_box{
+    width:480px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px #ccc;
+}
+
+/** 차트 이미지 들어가는 곳 **/
+.CHART_box .GR{ width:460; height:180px; background-color: #EEE; margin: 20px 0px;}
+
+.CHART_box p{ height:28px; margin: 5px}
+.CHART_box .textL{ font-size: 22px; font-weight: bold; color: #0D70BA; }
+.CHART_box .textS{ font-size: 12px; color:#0D70BA; margin: 0px 5px;}
+.CHART_box .textL_G{ font-size: 28px; color: #555; }
+.CHART_box .textS_G{ font-size: 12px; color:#555; margin: 0px 5px;}
+.CHART_box .textS_G_R{ font-size: 12px; color:#EC1C24; margin: 0}
+.CHART_box .textS_G_B{ font-size: 12px; color:#0D70BA; margin: 0}
+
+/* 인기 키워드 관련주*/
+.DATA_BOX_table{
+    width:1000px;
+    margin: 0 auto; 
+}
+
+.DATA_BOX_table .title{
+    width:100%; height:40px;
+    padding: 0px 10px;
+    border-bottom: 1px solid #ccc ; 
+}
+
+.DATA_BOX_table p{
+    width:100%;
+    font-size: 14px;
+    color:#777;
+    padding: 0px 10px;
+}
+
+.DATA_BOX_table .title h1{
+    font-size: 24px; color:#0D70BA;
+}
+
+.DATA_BOX_table .btn_table{
+    width:100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc ; 
+    margin-bottom: 20px;
+}
+
+/**/
+
+/*1*/
+.DATA_layer02{
+    width:100%;
+}
+
+.DATA_layer02 .inner1_1{
+    text-align: center;
+
+}
+
+.DATA_layer02 .inner1_1 .box_text{
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+}
+
+
+
+.DATA_layer02 .inner1_1 .box_text .table_box{
+    width:480px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px #eee;
+}
+
+.table_box{
+    width:100%;
+}
+
+.table_box .table_inner{    
+    border-bottom: 1px solid #eee;
+    padding:10px;
+    margin: 0px;
+}
+.table_box .table_inner:hover{    
+    background-color: #f9f9f9;
+}
+
+.table_box .T_name{
+    display: inline-block;
+    text-align: left;    
+    color:#555; font-size: 16px;
+    width:40%;
+    vertical-align: middle;
+}
+.table_box .T_p_r{
+    display: inline-block;
+    text-align: right; color:#ff1820;
+    width:25%;
+    vertical-align: middle;
+}
+.table_box .T_p_b{
+    display: inline-block;
+    text-align: right; color:#1d96f3;
+    width:25%;
+    vertical-align: middle;
+}
+.table_box .T_icon{
+    display: inline-block;
+    text-align: right;
+    width:7%;
+    vertical-align: middle;
+}
+
+.table_box .T_icon img{
+    height:18px;
+    margin-top: 5px;
+}
+
+
+/**** Data View Page ****/
+.View_box{
+    width:1000px;
+    background-color: #ffffff;
+    margin: 0px auto  50px  auto ;     
+    padding: 20px 40px 40px 40px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 20px #eee;    
+}
+
+.View_box .View_title{
+    width:100%;
+    height:100px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.View_box .View_title h1{
+    font-size: 20px;
+    height:30px; 
+    margin: 0;
+}
+.View_box .View_title .View_textS{
+    font-size: 14px;
+    height:24px; 
+    margin: 0;
+}
+.View_box .View_title .View_textM{
+    font-size: 14px;
+    height:24px; 
+    margin: 0;
+}
+.View_box .View_title .View_textM_R{
+    color: #ff1820; margin-right: 10px;
+}
+.View_box .View_title .View_textM_B{
+    color: #1d96f3; margin-right: 10px;
+}
+
+
+/** BACK BTN **/
+#icon_back {
+    position: absolute;
+    top:10px; right:20px;
+}
+
+/** 기업소개 문구 나오는 곳 **/
+.View_box .View_content_text{
+    width:100%;
+    padding: 10px;
+    color:#555;
+    line-height: 26px;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_box .View_content_text01{
+    width:100%;
+    color:#999;
+    font-size:12px;
+    line-height: 24px;
+}
+
+/** 기업소개 회사소개 대표자등 나오는 테이블 **/
+.View_content_table{
+    width:100%; margin:0 auto; display:table;
+}
+  
+.View_content_table .inner{
+    display:table-cell;
+    color:#777; font-size: 12px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table .inner .content_title{
+    display: inline-block;
+    width:180px;
+    background-color: #f7f7f7;
+    vertical-align: middle;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+.View_content_table .inner .content_text{
+    display: inline-block;
+    width:740px;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+/* 시세및 주주현황 **/
+.View_content_table2{
+    width:100%; margin:0 auto; display:table;
+}
+  
+.View_content_table2 .inner1{
+    display:table-cell;
+    color:#555;
+    vertical-align: bott;
+}
+
+.View_content_table2 .inner1 .inner2{
+    float: left;
+    color:#777; font-size: 12px;
+    width:49%;
+}
+
+.View_content_table2 .inner1 .inner2 .LINE{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table2 .inner1 .inner2 .content_title1{
+    display: inline-block;
+    width:180px;
+    background-color: #f7f7f7;
+    padding: 0px 10px;
+}
+
+.View_content_table2 .inner1 .inner2 .content_text1{
+    display: inline-block;
+    width:250px;
+    padding: 0px 10px;
+}
+
+
+.View_content_table2 .inner1 .inner3{
+    float: right;
+    color:#777; font-size: 12px;
+    width:49%;
+}
+
+.View_content_table2 .inner1 .inner3 .LINE{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table2 .inner1 .inner3 .content_title1{
+    display: inline-block;
+    width:50%;
+    background-color: #f7f7f7;
+    padding: 0px 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table2 .inner1 .inner3 .content_text1{
+    display: inline-block;
+    width:25%;
+    padding: 0px 10px;
+}
+.View_content_table2 .inner1 .inner3 .content_text2{
+    display: inline-block;
+    width:24%;
+    text-align: right;
+    padding: 0px 10px;
+}
+
+
+
+.View_content_table2 .inner1 .inner3 .content_title2{
+    display: inline-block;
+    width:50%;
+    background-color: #f7f7f7;
+    padding: 0px 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table2 .inner1 .inner3 .content_title2_1{
+    display: inline-block;
+    width:25%;
+    background-color: #f7f7f7;
+    padding: 0px 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table2 .inner1 .inner3 .LINE_bottom{
+    margin-top: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.View_content_table2 .inner1 .inner3 .content_text02{
+    display: inline-block;
+    width:50%;
+    height:34px;
+    text-align:left;
+    padding: 0px 10px;
+}
+.View_content_table2 .inner1 .inner3 .content_text03{
+    display: inline-block;
+    width:25%;
+    height:34px;
+    text-align: right;
+    padding: 0px 10px;
+}
+/*********************************************/
+/*********************************************/
+/*********************************************/
+
+/** mobile **/
+
+@media screen and (max-width:780px) {
+
+
+
+
+}
+
+/***********/
+/***********/
+/***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

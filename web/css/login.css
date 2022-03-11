@@ -1,0 +1,102 @@
+/*LOGIN IN */
+.LogBox {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    background: url("../img/main_body_bg_wh.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.LogBox .BoxL{
+    width:500px;
+    padding: 20px;
+    color:#0D70BA;
+}
+
+.LogBox .BoxR{
+    width:500px;
+    padding: 0px 20px;
+    margin-bottom: 60px;
+}
+.LogBox .BoxL .textL{
+    display: block;
+    font-size: 42px; font-weight: bold;
+    margin: 40px 0px 20px 0px; padding: 0;
+}
+.LogBox .BoxL .textP{
+    display: block;    
+    font-size: 16px; line-height: 24px;
+    margin: 10px 0px 0px; padding: 0px 4px;
+}
+.LogBox .BoxL .img01{
+    display: block; width:460px;
+    margin: 100px auto 0px auto;
+}
+.LogBox .BoxL .img02{
+    display: block; width:340px;
+    margin: 70px auto 0px auto;
+}
+.BoxR .cardbox{
+    width:100%;
+    padding: 20px 20px 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #ccc;
+    margin: 30px 0px 60px 0px;
+}
+
+.cardbox .title{
+    font-size: 16px;
+    color:#0D70BA;
+    line-height: 20px;
+    padding: 0px 10px; margin: 20px 0px 10px 0px;
+    border-left:4px solid #f5f5f5;
+}
+.cardbox .comm{
+    font-size: 14px;
+    color:#EC1C24;
+    line-height: 20px;
+    padding: 0px 10px; margin: 4px 0px 0px 0px;
+}
+.cardbox .SNSLOGIN{
+    display: flex; justify-content: center; align-items:center;    
+    font-size: 14px; color:#777; height:40px;
+    border-top: 1px solid #eee;
+    margin:10px 0px;
+}
+.cardbox .SNSiconBox{
+    width:100%;
+    text-align:center;
+}
+.cardbox .SNSiconBox .SNSICON{
+    display: inline-block;
+    width:49%;
+    padding: 8px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+.cardbox .SNSiconBox .SNSICON:hover{
+    background-color: #f9f9f9;
+}
+.cardbox .SNSLOGIN_T{
+    font-size: 12px; line-height:22px; color:#777;
+    text-align: center;
+    padding: 30px 28px 0px 28px;
+}
+
+/* LOGIN END */
+
+/* SIGN UP */
+.NO {
+    margin-top:20px;
+    margin-left:20px;
+    list-style-type:circle; }
+
+
+
+
+
+

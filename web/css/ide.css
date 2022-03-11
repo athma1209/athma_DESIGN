@@ -1,0 +1,267 @@
+
+
+/**************
+***** IDE *****
+**************/
+.IDE_layer{
+    width:100%; margin:0 auto; display:table;
+}
+
+.IDE_layer .subtitle{ font-size: 52px; margin-top: 50px;}
+.IDE_layer h1{ font-size: 42px; margin-bottom: 0;}
+.IDE_layer h2{ font-size: 32px; margin-bottom: 0;}
+.IDE_layer p{ font-size: 18px; line-height: 30px; margin-bottom: 0;}
+
+.IDE_layer .img0{ width: 380px; margin: 20px;}
+.IDE_layer .img01{ width: 420px; }
+.IDE_layer .img02{ width: 320px; }
+.IDE_layer .img03{ width: 380px; }
+
+/*1*/
+.IDE_layer .inner{
+    display:table-cell; height:300px;
+    text-align: center;
+    vertical-align: middle;
+
+    background: url("../img/main_body_bg_blue.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.IDE_layer .inner .content{
+    display: inline-block;
+    width:100%;
+    padding: 0px;
+}
+
+.IDE_layer .inner .content .box_text{
+    width:70%;
+    color:#F9F9F9;
+    margin-left: auto; margin-right: auto; 
+}
+
+/*2*/
+.IDE_layer .inner1{
+    display:table-cell; height:70vh;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px auto;
+
+    background: url("../img/main_body_bg_wh.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.IDE_layer .inner1 .content{
+    display: inline-block;
+    width:100%;
+    padding: 70px;
+}
+
+.IDE_layer .inner1 .content .box_text{
+    display: inline-block;
+    width:500px;
+    text-align: left;
+    vertical-align: middle;
+    color:#0D70BA;
+}
+
+.IDE_layer .inner1 .content .box_img{
+    display: inline-block;
+    width:500px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*3*/
+.IDE_layer .inner2{
+    display:table-cell; 
+    text-align: center;
+    vertical-align: middle;
+
+    background: url("../img/main_body_bg_blue.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.IDE_layer .inner2 .content{
+    display: inline-block;
+    width:100%;
+    padding: 70px;
+}
+
+.IDE_layer .inner2 .content .box_text{
+    display: inline-block;
+    width:500px;
+    text-align: left;
+    vertical-align: middle;
+    color:#f5f5f5;
+}
+
+.IDE_layer .inner2 .content .box_img{
+    display: inline-block;
+    width:500px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+/**************
+*** IDE END ***
+**************/
+
+
+
+
+/*********************************************/
+/*********************************************/
+/*********************************************/
+
+/** mobile **/
+
+@media screen and (max-width:780px) {
+
+
+
+/**************
+***** IDE *****
+**************/
+.IDE_layer{
+    width:100%; margin:0 auto; display:table;
+}
+
+.IDE_layer .subtitle{ font-size: 48px; margin-top: 50px;}
+.IDE_layer h1{ font-size: 42px; margin-bottom: 0;}
+.IDE_layer h2{ font-size: 32px; margin-bottom: 0;}
+.IDE_layer p{ font-size: 16px; line-height: 30px; margin-bottom: 0;}
+
+.IDE_layer .img0{ width: 380px; margin: 20px;}
+.IDE_layer .img01{ width: 420px; margin: 20px;}
+.IDE_layer .img02{ width: 320px; margin: 20px}
+.IDE_layer .img03{ width: 380px; margin: 20px}
+
+/*1*/
+.IDE_layer .inner{
+    display:table-cell; height:300px;
+    text-align: center;
+    vertical-align: middle;
+
+    background: url("../img/main_body_bg_blue.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.IDE_layer .inner .content{
+    display: inline-block;
+    width:90%;
+    padding: 0px;
+}
+
+.IDE_layer .inner .content .box_text{
+    width:100%;
+    color:#F9F9F9;
+    margin-left: auto; margin-right: auto; 
+}
+
+/*2*/
+.IDE_layer .inner1{
+    display:table-cell; height:100vh;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px auto;
+
+    background: url("../img/main_body_bg_wh.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.IDE_layer .inner1 .content{
+    display: inline-block;
+    width:90%;
+    padding: 0px;
+}
+
+.IDE_layer .inner1 .content .box_text{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    vertical-align: middle;
+    color:#0D70BA;
+}
+
+.IDE_layer .inner1 .content .box_img{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*3*/
+.IDE_layer .inner2{
+    display:table-cell; 
+    text-align: center;
+    vertical-align: middle;
+
+    background: url("../img/main_body_bg_blue.svg") fixed;
+    background-size: cover; background-position: center center;
+}
+.IDE_layer .inner2 .content{
+    display: inline-block;
+    width:90%;
+    padding: 0px;
+}
+
+.IDE_layer .inner2 .content .box_text{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    vertical-align: middle;
+    color:#f5f5f5;
+}
+
+.IDE_layer .inner2 .content .box_img{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+/**************
+*** IDE END ***
+**************/
+
+
+
+}
+
+/***********/
+/***********/
+/***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
